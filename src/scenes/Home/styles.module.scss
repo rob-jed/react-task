@@ -1,0 +1,23 @@
+.HomePage {
+    margin-top: 100px;
+
+    text-align: center;
+}
+
+.FilterUsersInput {
+    width: 250px;
+}
+
+.ResultsContainer {
+    max-width: 500px;
+    padding-left: 120px;
+
+    margin: 40px auto;
+}
+
+.NoResults {
+    max-width: 250px;
+
+    font-size: 20px;
+    font-weight: 600;
+}

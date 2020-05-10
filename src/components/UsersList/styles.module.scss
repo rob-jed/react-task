@@ -1,0 +1,31 @@
+.UsersList {
+    counter-reset: custom-counter;
+
+    padding: 0 5px;
+
+    text-align: left;
+}
+
+.ListItem {
+    counter-increment: custom-counter;
+
+    padding-bottom: 10px;
+
+    font-size: 16px;
+
+    &:before {
+        content: counter(custom-counter) ".";
+
+        padding-right: 5px;
+
+        font-size: 15px;
+        color: var(--secondaryColor);
+    }
+}
+
+.UserName {
+    padding-left: 10px;
+
+    font-size: 14px;
+    color: var(--secondaryColor);
+}
