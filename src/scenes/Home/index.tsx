@@ -1,11 +1,14 @@
 import React from 'react';
 
 import Container from 'components/Container';
+import Input from 'components/Input';
+import PageHeader from 'components/PageHeader';
 
 const Home = () => {
     return (
         <Container>
-            <h1>Hello World</h1>
+            <PageHeader>Users list</PageHeader>
+            <Input placeholder="Search by user name..." type="text" />
         </Container>
     );
 };

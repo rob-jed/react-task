@@ -1,0 +1,16 @@
+.Input {
+    height: 28px;
+    padding: 0 5px;
+
+    font-size: 18px;
+    line-height: 28px;
+
+    border: 1px solid var(--primaryColor);
+
+    transition: border-color .2s;
+
+    &:focus {
+        border-color: var(--activeColor);
+        outline: none;
+    }
+}
