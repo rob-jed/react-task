@@ -7,10 +7,9 @@ import Spinner from 'components/Spinner';
 import UsersList from 'components/UsersList';
 
 import { getUsers } from 'services/APIQueries';
+import { filterUsers } from 'services/Users';
 
 import { User } from 'types/users';
-
-import { filterUsers } from './services';
 
 import styles from './styles.module.scss';
 
